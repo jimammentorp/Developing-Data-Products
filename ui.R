@@ -5,7 +5,7 @@ shinyUI(
       numericInput('scored', 'Enter the number of runs that have been scored in all games',1,
                    min = 1, max = 1000, step = 1),
       numericInput('allowed', 'Enter the number of runs allowed in all games',1,
-                   min = 11, max = 1000, step = 1),
+                   min = 1, max = 1000, step = 1),
       submitButton('Submit')
     ),
     mainPanel(
